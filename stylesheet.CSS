@@ -1,9 +1,25 @@
+body{margin: 40px;}
 a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     text-align: right;
-    padding: 15px; 
+    padding: 16px; 
+    padding-top: 22;
+    padding:22px 16px 17px;
 }
+#quote:hover{
+    color: black;
+}
+#nav-services{
+    color: white;
+}
+nav{
+    margin-bottom: 111px;
+    position: sticky;
+    top: 0;
+    background-color:#DABDB3;
+    z-index:1;
+ }
 #search{
     position: relative;
     bottom: 8px;
@@ -37,7 +53,6 @@ nav div a:hover:not(#search,#quote){
     position: relative;
     top: 20px;
 }
-body{margin: 40px;}
 div img{
     position: relative;
     top: 18px;
@@ -68,9 +83,6 @@ h1{
 ul li{
     list-style-type: none;
     display: inline;
-}
-nav{
-    margin-bottom: 236px;
 }
 #logo{
     position: relative;
